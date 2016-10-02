@@ -1,0 +1,66 @@
+.editor-icons {
+	display: flex;
+	padding: 15px;
+	margin: 0;
+	border-radius: 2px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.editor-icons > li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.cmd {
+	margin: 0 2px;
+	line-height: 20px;
+	width: 32px;
+	height: 32px;
+	border-radius:  2px;
+	box-shadow: 0 0 1px #ddd;	
+	background: #eee;
+	border: 1px solid #ccc;
+	color: #333;
+}
+
+.cmd:hover, 
+.cmd:active {
+	background: #ddd;
+}
+
+.editable {
+	background: transparent;
+	border: 0;
+}
+
+.editable.textarea  {
+	background: white;
+	min-height: 300px;
+	border: 1px solid #ccc;
+}
+
+.editable ol  {
+	list-style-type: decimal;
+}
+
+.editable ul {
+	list-style-type: disc;
+}
+
+.editor button.active {
+	background: #ccc;
+}
+
+.editor .small {
+	font-size: .8em;
+}
+
+.editor .large {
+	font-size: 1.2em;
+}
+
+.editable ul, .editable ol {
+	margin-left: 40px;
+}
